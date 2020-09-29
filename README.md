@@ -43,3 +43,14 @@ Cleaning of the data was required and hence we performed the below steps:
 - Calculated average salary for all the job postings based on given lower bound and upper bound
 - Calculated average revenue for all the companies
 - Replaced unknown company founded date by current year
+
+## Data Visualization
+Created reports in Microsoft Power BI to perform Exploratory Data Analysis and to visualize the Salary breakup based on:
+
+- Sector
+- Location
+- Employee Size
+- Industry
+- Job Title
+- Company Age Category
+
