@@ -54,3 +54,4 @@ Created reports in Microsoft Power BI to perform Exploratory Data Analysis and t
 - Job Title
 - Company Age Category
 
+![alt text](https://github.com/E-equals-mcsquare/AI-based-Salary-Estimator/blob/master/Report.png "Report")
