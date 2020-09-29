@@ -16,3 +16,30 @@ An AI based Salary Estimator tool with Chatbot feature
 - **Front-end**: SAP UI5 (*CSS, Javascript, HTML5*)
 - **Scraper Github**: https://github.com/arapfaik/scraping-glassdoor-selenium
 - **Scraper Article**: https://towardsdatascience.com/selenium-tutorial-scraping-glassdoor-com-in-10-minutes-3d0915c6d905
+
+## Web Scraping
+Scraped 1000 job postings from glassdoor.com. With each job, we got the following:
+
+- Job title
+- Salary Estimate
+- Job Description
+- Rating
+- Company
+- Location
+- Company Size
+- Company Founded Date
+- Type of Ownership
+- Industry
+- Sector
+- Revenue
+
+## Data Cleaning
+Cleaning of the data was required and hence we performed the below steps:
+
+- Parsed numeric data out of salary
+- Removed rows without salary
+- Transformed founded date into age of company
+- Classified categories of companies into Old, Medium and Start-ups based on age of company
+- Calculated average salary for all the job postings based on given lower bound and upper bound
+- Calculated average revenue for all the companies
+- Replaced unknown company founded date by current year
