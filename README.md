@@ -55,3 +55,29 @@ Created reports in Microsoft Power BI to perform Exploratory Data Analysis and t
 - Company Age Category
 
 ![alt text](https://github.com/E-equals-mcsquare/AI-based-Salary-Estimator/blob/master/Report.png "Report")
+
+## Model Building
+I transformed the categorical variables into dummy variables using the pd.get_dummies() method of pandas library. Then, I split the data into training and testing sets with a test size of 20%.
+
+Since this is a regression problem, so I tried three different models:
+- Multiple Linear Regression
+- Lasso Regression
+- Random Forest Regression
+
+I evaluated them using 3 evaluation metrices such as Mean Squared Error, Root Mean Squared Error and Mean Absolute Error.
+
+## Model Performance
+The Random Forest model outperformed the other two models on the test set, with respect to MAE and RMSE.
+
+-**Random Forest** : MAE = 7.79, RMSE = 14.39
+-**Linear Regression** : MAE = 25.86, RMSE = 27.27
+-**Lasso Regression** : MAE = 16.67, RMSE = 23.13
+
+## Chatbot Entities
+I used SAP Conversational AI for building the chatbot
+
+Entities that are used:
+- industry
+- sector
+- location
+- company age category
