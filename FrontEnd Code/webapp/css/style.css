@@ -1,0 +1,205 @@
+/* Enter your custom styles here */
+/*.chatbot{*/
+/*	width:20%;*/
+/*	top:55px;*/
+/*}*/
+
+.bkChatInput-button-img{
+	color:#2F2F31;
+}
+.empatriskhdr{
+	margin-top: -17px;
+}
+.sapMTitle {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    font-weight: normal;
+    color: #32363a;
+    font-weight: 900;
+    font-family: "72","72full",Arial,Helvetica,sans-serif;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: text;
+    text-shadow: none;
+}
+
+.sapUiBody{
+	font-size:9px;
+}
+.firsthalf{
+	width:28%;
+}
+.secondhalf{
+	width:40%;
+}
+.sapMLIB {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    background: #ffffff;
+    border-color: #114e8a;
+    /* border-bottom: 1px solid #e5e5e5; */
+    padding: 0 1rem 0 0rem;
+}
+.sapMListShowSeparatorsNone .sapMLIBShowSeparator {
+    border-bottom: 1px solid transparent;
+    background: white;
+}
+
+/*.testBorder {
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+}*/
+
+.sapMScrollCont {
+    overflow: hidden;
+    position: relative;
+    outline: none;
+    background-color: white;
+}
+
+.sapMPopover .sapMIBar.sapMHeader-CTX {
+    background-color: #2F2F31;
+    box-shadow: inset 0 -1px #d9d9d9;
+}
+
+.sapMTextArea {
+    height: 20px;
+}
+
+.sapMFeedListShowSeparatorsAll .sapMFeedListItem {
+    padding-top: 0rem;
+    /* padding-bottom: 1rem; */
+}
+
+html.sap-desktop .sapMIBar.sapMFooter-CTX {
+    background-color: #edf1f2;
+    border-top: 1px solid #edf1f2;
+}
+
+.pageStyle {
+    background-color: #ececec;
+}
+
+.list {
+    border-radius: 20px;
+    margin: 0.8rem;
+    width: 8rem;
+}
+
+.headerText {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 900;
+    margin-left: 2rem;
+    position: absolute;
+    margin-top:1em;
+}
+.attritiontext{
+    color: #32363a;
+    font-weight: 900;
+    font-size: 1rem;
+    margin-left:34rem;
+    margin-top:1em;
+    margin-bottom:18px;
+}
+
+.chartPanel {
+    background-color: #ececec;
+    margin-left: 1rem;
+}
+
+.sapMListHdrText {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+    font-size: 1.125rem;
+    font-family: "72", "72full", Arial, Helvetica, sans-serif;
+    color: #32363a;
+    height: 3rem;
+    line-height: 3rem;
+    padding: 0 1rem;
+    background-color: transparent;
+    border-bottom: 1px solid #d9d9d9;
+    font-weight: 900;
+}
+
+.sapMIBar-CTX .sapMTitle {
+    color: white;
+    text-shadow: none;
+    font-weight: 900;
+}
+
+.sapMBarTitleStart .sapMBarPH {
+    text-align: center;
+}
+
+.chatButton .sapMBtnInner {
+    font-size: 0.875rem;
+    height: 2.25rem;
+    min-width: 2.25rem;
+    margin: -8.5px;
+    padding: 0;
+    text-align: center;
+    position: relative;
+    border-radius: 1.25rem;
+    text-shadow: none;
+    background-color: #2F2F31;
+    border-color: #2F2F31;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 0 0.0625rem rgba(0, 0, 0, 0.15), 0 0.625rem 1.875rem 0 rgba(0, 0, 0, 0.3)
+}
+
+.sapMFeedListShowSeparatorsAll .sapMFeedListItem {
+    padding-top: 2rem;
+    /*padding-bottom: 1rem;*/
+}
+
+/*.sapSuiteUiCommonsChartContainerToolBarArea {
+	background-color: #fee601;
+}*/
+
+.attrition {
+    color: red !important;
+}
+.eylogo{
+	margin-top : -18px !important;
+}
+.empchurn{
+     margin-top :20px !important;
+}
+.headerText {
+	text-align: left;
+    font-weight: 900;
+    font-size: 1rem;
+    position:absolute;
+    margin-left: 20px !important;
+}
+
+.sapMIBar.sapMHeader-CTX {
+    color: #666666;
+    background-color: #313131;
+    filter: none;
+    background-image: none;
+}
+
+.sapMShellBrandingBar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 4px;
+    z-index: 1;
+    background-color: #313131;
+}

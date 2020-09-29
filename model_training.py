@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import os
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import OneHotEncoder, LabelEncoder
-from sklearn.metrics import mean_squared_error
+from sklearn.metrics import mean_squared_error, mean_absolute_error
 from sklearn.metrics import SCORERS
 from sklearn.model_selection import cross_val_score
 
@@ -50,6 +50,7 @@ linear_regressor.fit(X_train, y_train)
 
 y_pred_linear_regressor = linear_regressor.predict(X_test)
 mse_linear_regressor = mean_squared_error(y_test, y_pred_linear_regressor)
+mae_linear_regressor = mean_absolute_error(y_test, y_pred_linear_regressor)
 rmse_linear_regressor = np.sqrt(mse_linear_regressor)
 
 # Lasso Regression
@@ -70,6 +71,7 @@ plt.plot(alpha,error)
 
 y_pred_lasso_regressor = lasso_regressor.predict(X_test)
 mse_lasso_regressor = mean_squared_error(y_test, y_pred_lasso_regressor)
+mae_lasso_regressor = mean_absolute_error(y_test, y_pred_lasso_regressor)
 rmse_lasso_regressor = np.sqrt(mse_lasso_regressor)
 
 # Random Forest Regressor
@@ -80,6 +82,7 @@ rf_regressor.fit(X_train, y_train)
 
 y_pred_rf_regressor = rf_regressor.predict(X_test)
 mse_rf_regressor = mean_squared_error(y_test, y_pred_rf_regressor)
+mae_rf_regressor = mean_absolute_error(y_test, y_pred_rf_regressor)
 rmse_rf_regressor = np.sqrt(mse_rf_regressor)
 
 from sklearn.model_selection import GridSearchCV
