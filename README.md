@@ -69,11 +69,14 @@ I evaluated them using 3 evaluation metrices such as Mean Squared Error, Root Me
 ## Model Performance
 The Random Forest model outperformed the other two models on the test set, with respect to MAE and RMSE.
 
--**Random Forest** : MAE = 7.79, RMSE = 14.39
--**Linear Regression** : MAE = 25.86, RMSE = 27.27
--**Lasso Regression** : MAE = 16.67, RMSE = 23.13
+- **Random Forest** : MAE = 7.79, RMSE = 14.39
+- **Linear Regression** : MAE = 25.86, RMSE = 27.27
+- **Lasso Regression** : MAE = 16.67, RMSE = 23.13
 
-## Chatbot Entities
+## Model Deployment
+The model was deployed on local host server via exposing as a service through Flask API. I used ngrok for HTTPS tunneling of the service, so that the chatbot can use it as a Webhook for calling the service.
+
+## Chatbot
 I used SAP Conversational AI for building the chatbot
 
 Entities that are used:
@@ -81,3 +84,12 @@ Entities that are used:
 - sector
 - location
 - company age category
+
+![alt text](https://github.com/E-equals-mcsquare/AI-based-Salary-Estimator/blob/master/CAIEntities.PNG "Entities")
+
+SAP Conversational AI provides APIs which I had used in the service to get the response of the user queries through simple HTTPS calls.
+
+## Front-End
+As an end-product, I used SAP UI5 for holding the Power BI report. The following UI controls are used:
+- **iFrame** - For embedding the HTML content of the Power BI Report
+- **Custom Control** - For building the Chatbot interface
